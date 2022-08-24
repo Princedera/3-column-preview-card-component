@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+    bottom: 20%;
+    right:0px;
+    left: 2%;
+    max-width: 1000px;
+    
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+section {
+    padding:50px 50px 20px 55px;
+    max-width: 234px;
+    max-height: auto;
+}
+
+button {
+    margin-top: 80px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 50px;
+    border: 0px;
+    background-color:hsl(0, 0%, 95%);
+    font-family : 'Lexend Deca', sans-serif;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color:hsl(0, 9%, 84%);
+}
+
+h1 {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:40px ;
+}
+
+p {
+    font-size:15px ;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 27px;
+}
+
+.section-one {
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius:7px 0px 0px 7px ;
+}
+
+.section-two {
+   background-color:hsl(184, 100%, 22%);
+}
+
+.section-three {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.section-one button{
+    color:hsl(31, 77%, 52%) ;
+}
+
+.section-two button{
+    color:hsl(184, 100%, 22%);
+ }
+
+ .section-three button{
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:600px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.section-one{
+    border-radius: 7px 7px 0px 0px;
+}
+
+.section-three {
+    border-radius: 0px 0px 7px 7px;
+}
+}
